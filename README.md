@@ -36,6 +36,7 @@ alv -ki -w 100 ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.fas | aha > ~/labs/l
 a2ps -r --columns=1 ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.html -o ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.ps
 
 ps2pdf ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.ps ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.pdf
+```
 
 ## Step 3: Conducting a Global Multiple Sequence Alignment in Muscle
 This sequence alignment was then used to create a phylogenetic tree for the homologs, using IQ-Tree and VT + F + R6 as the three components to the model. The following is using the directories and folders utilized during lab so change input and output files accordingly.
