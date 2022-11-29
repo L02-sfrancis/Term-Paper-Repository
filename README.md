@@ -39,7 +39,7 @@ ps2pdf ~/labs/lab4-$MYGIT/mygene/mygene.homologs.al.ps ~/labs/lab4-$MYGIT/mygene
 ```
 
 ## Step 3: Conducting a Global Multiple Sequence Alignment in Muscle
-This sequence alignment was then used to create a phylogenetic tree for the homologs, using IQ-Tree and VT + F + R6 as the three components to the model. The following is using the directories and folders utilized during lab so change input and output files accordingly.
+This sequence alignment was then used to create a phylogenetic tree for the homologs, using IQ-Tree and VT + F + R6 as the three components to the model. Using this data, the gene tree was reconciled and then viewed within the species tree, using Notung and thirdkind. The following is using the directories and folders utilized during lab so change input and output files accordingly.
 ```
 java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab5-$MYGIT/species.tre -g ~/labs/lab6-$MYGIT/mygene/mygene.homologs.al.mid.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/mygene/
 
